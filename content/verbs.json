@@ -1,14 +1,16 @@
 {
     "verbs": [
-        "id": "bother",
-        "label": "Bother",
-        "description": "Give me food. Cuddles. Anything!",
-        "slot": {
-            "id": "attention",
-            "label": "My Attention",
-            "description": "Bothering my human requires my entire Attention.",
-            "required": {
-                "attention": 1
+        {
+            "id": "shout",
+            "label": "Shout",
+            "description": "Just shout loudly in the room. The librarians are sure to appreciate it.",
+            "slot": {
+                "id": "sentence",
+                "label": "A Sentence",
+                "description": "A sentence to shout out at the world.",
+                "required": {
+                    "sentence": 1
+                }
             }
         }
     ]

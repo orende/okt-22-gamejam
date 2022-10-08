@@ -1,21 +1,20 @@
 {
-	"legacies": [
-		{
-			"id": "test.legacy",
-			"label": "test.legacy",
-			"image": "test.legacy",
-			"startingVerbId": "work",
-			"description": "Hey hey here is a description",
-			"startdescription": "Hey hey here is a startdescription",
-			"statusbarelements": [
-				"cattreasure"
-			],
-			"effects": {
-				"attention": 1
-			},
-			"newstart": true,
-			"fromEnding": "chi.ascended",
-			"availableWithoutEndingMatch": true
-		}
-	]
+    "legacies": [
+        {
+            "id": "test.legacy",
+            "image": "test.legacy",
+            "label": "test.legacy",
+            "description": "Hej hej här är en beskrivning",
+            "startdescription": "Hej hej här är en beskrivning",
+            "startingverbid": "shout",
+            "availableWithoutEndingMatch": true,
+            "newstart": true,
+            "effects": {
+                "sentence": 1
+            },
+            "statusbarelements": [
+            ]
+
+        }
+    ]
 }

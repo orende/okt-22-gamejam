@@ -1,0 +1,17 @@
+{
+    "decks": [
+        {
+            "id": "noisedeck",
+            "label": "Consequences of shouting",
+            "spec": [
+                "noise",
+                "noise",
+                "noise",
+                "noise",
+                "noise"
+            ],
+            "resetonexhaustion": true
+        }
+
+    ]
+}
