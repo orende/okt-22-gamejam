@@ -21,7 +21,7 @@
 		{
 			"id": "macguffin",
 			"label": "The Book of Dreams",
-			"description": "This book is said to make your dreams come true. Is that something you want? Are you prepared for the consequences?",
+			"description": "This book is said to make your dreams come true. Is that what you want? Are you prepared for the consequences?",
 			"slots": [],
 			"aspects": {
 				"text": 1
