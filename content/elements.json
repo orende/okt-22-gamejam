@@ -28,6 +28,15 @@
 			}
 		},
 		{
+			"id": "windingcorridor",
+			"label": "Dust covered Corridor",
+			"description": "A place where I can find something.",
+			"slots": [],
+			"aspects": {
+				"location": 1
+			}
+		},
+		{
 			"id": "librarypamphlet",
 			"label": "Library Pamphlet",
 			"description": "A pamphlet giving a presentation on the Library.",
@@ -36,7 +45,7 @@
 				"text": 1
 			}
 		},
-        {
+		{
 			"id": "scrawleddirections",
 			"label": "Scrawled directions",
 			"description": "A handwritten map guiding you to The Library",
@@ -44,6 +53,6 @@
 			"aspects": {
 				"directions": 1
 			}
-        }
+		}
 	]
 }
