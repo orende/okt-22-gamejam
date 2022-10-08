@@ -2,7 +2,7 @@
 	"elements": [
 		{
 			"id": "lobby",
-			"label": "Libary Lobby",
+			"label": "Library Lobby",
 			"slots": [],
 			"aspects": {
 				"location": 1
@@ -11,7 +11,7 @@
 		{
 			"id": "kevin",
 			"label": "Kevin",
-			"description": "Works in the lobby sometimes.",
+			"description": "He works in the lobby. He looks like a friendly fellow.",
 			"slots": [],
 			"aspects": {
 				"librarian": 1,
@@ -30,7 +30,7 @@
 		{
 			"id": "windingcorridor",
 			"label": "Dust covered Corridor",
-			"description": "A place where I can find something.",
+			"description": "The pamphlet led you here. It looks just like any other corridor in this place, but the pamphlet seems to consider it important.",
 			"slots": [],
 			"aspects": {
 				"location": 1
@@ -39,7 +39,7 @@
 		{
 			"id": "librarypamphlet",
 			"label": "Library Pamphlet",
-			"description": "A pamphlet giving a presentation on the Library.",
+			"description": "A pamphlet giving a presentation on the Library. There's a map on its flipside.",
 			"slots": [],
 			"aspects": {
                 "text": 1
@@ -48,7 +48,7 @@
         {
 			"id": "scrawleddirections",
 			"label": "Scrawled directions",
-			"description": "A handwritten map guiding you to The Library",
+			"description": "A handwritten map guiding you to The Library.",
 			"slots": [],
 			"aspects": {
 				"directions": 1
