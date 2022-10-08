@@ -69,7 +69,7 @@
             "craftable": true,
             "startdescription": "The pamphlet contains an useful map in its map. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
             "description": "Found something!",
-            "effects": {
+            "deckeffects": {
                 "pamphletdeck": 1
             },
             "warmup": 10
