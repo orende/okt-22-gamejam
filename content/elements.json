@@ -1,3 +1,14 @@
 {
-	"elements": []
+    "elements": [
+        {
+            "id": "sentence",
+            "label": "A Sentence",
+            "description": "Just something."
+        },
+        {
+            "id": "noise",
+            "label": "Noise level",
+            "description": "The amount of noise you're currently making"
+        }
+    ]
 }
