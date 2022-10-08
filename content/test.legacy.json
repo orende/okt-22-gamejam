@@ -4,13 +4,13 @@
             "id": "test.legacy",
             "image": "test.legacy",
             "label": "test.legacy",
-            "description": "Hej hej här är en beskrivning",
-            "startdescription": "Hej hej här är en beskrivning",
-            "startingverbid": "shout",
+            "description": "Explore The Library",
+            "startdescription": "No one truly knows how vast The Library is.",
+            "startingverbid": "library.talk",
             "availableWithoutEndingMatch": true,
             "newstart": true,
             "effects": {
-                "sentence": 1
+                "kevin": 1
             },
             "statusbarelements": [
             ]

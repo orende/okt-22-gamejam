@@ -1,37 +1,23 @@
 {
 	"verbs": [
-		{
-			"id": "shout",
-			"label": "Shout",
-			"description": "Just shout loudly in the room. The librarians are sure to appreciate it.",
-			"slot": {
-				"id": "sentence",
-				"label": "A Sentence",
-				"description": "A sentence to shout out at the world.",
-				"required": {
-					"sentence": 1
-				}
-			}
-		},
         {
-            "id": "study",
+            "id": "library.study",
             "label": "Study",
             "description": "Unlock books and other treasures.",
+            "id": "library.talk",
+            "label": "Talk",
+            "description": "Talk with the staff",
             "slot": {
-                "id": "study",
-                "label": "Study",
-                "description": "The invisible arts could occupy ten lifetimes of study.",
+                "id": "talk.person",
+                "label": "Whom to talk to",
+                "description": "Just a guy",
                 "required": {
-                    "text": 1,
-                    "ability": 1,
-                    "tutor": 1,
-                    "language": 1,
-                    "legacyplotitem": 1
+                    "person": 1
                 }
             }
         },
         {
-            "id": "talk",
+            "id": "library.talk",
             "label": "Talk",
             "description": "Interrogate, intimidate, beguile, instruct, recruit.",
             "slot": {
@@ -51,7 +37,7 @@
             }
         },
 		{
-			"id": "explore",
+			"id": "library.explore",
 			"label": "Explore",
 			"description": "Explore the Library with Health or Followers; explore locations; or investigate the possibilities of knowledge. Exploration is often unpredictable.",
 			"slot": {

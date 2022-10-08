@@ -1,13 +1,39 @@
 {
 	"elements": [
 		{
-			"id": "cattreasure",
-			"label": "Cat-Treasure",
-			"description": "Some would call it \"junk\". I call it \"treasure\", because it's mine.",
-			"slots": []
+			"id": "mortal",
+            "label": "Mortal",
+            "description": "One of the mundane. A mortal. Just like us.",
+			"isAspect": true
+		},
+		{
+			"id": "summoned",
+            "label": "Summoned",
+            "description": "Something which did not originate in this plane of existence. Something which has been brought here. Likely against it's will",
+			"isAspect": true
+		},
+		{
+			"id": "patron",
+            "label": "Patron",
+            "description": "A patron of the arts",
+			"isAspect": true
+		},
+		{
+			"id": "society",
+            "label": "Societ",
+            "description": "We live in one.",
+			"isAspect": true
+		},
+		{
+			"id": "hq",
+            "label": "HQ",
+            "description": "A corner of the library that can be used as a home, of sorts.",
+			"isAspect": true
 		},
 		{
 			"id": "librarian",
+            "label": "Librarian",
+            "description": "One of the uncountable number of libarians inhabiting the library",
 			"isAspect": true
 		}
 	]
