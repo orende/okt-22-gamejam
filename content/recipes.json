@@ -25,21 +25,6 @@
             "startdescription": "Where will I find myself?",
             "description": "Woop",
             "warmup": 30
-        },
-        {
-            "actionid": "shout",
-            "id": "library.shoutloudlyinthelibrary",
-            "requirements": {
-                "sentence": 1
-            },
-            "craftable": true,
-            "label": "Breathe deeply",
-            "startdescription": "I'm ready to make some noise",
-            "description": "<b>AAAAAAAAAAAAAAAAAAAAAAAAAH!!!!</b>",
-            "deckeffects": {
-                "noisedeck": 5
-            },
-            "warmup": 10
-        }   
+        }
     ]
 }
