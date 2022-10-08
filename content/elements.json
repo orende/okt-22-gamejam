@@ -1,7 +1,7 @@
 {
 	"elements": [
 		{
-			"id": "library.lobby",
+			"id": "lobby",
 			"label": "Libary Lobby",
 			"slots": [],
 			"aspects": {
@@ -9,7 +9,7 @@
 			}
 		},
 		{
-			"id": "library.kevin",
+			"id": "kevin",
 			"label": "Kevin",
 			"description": "Works in the lobby sometimes.",
 			"slots": [],
@@ -17,6 +17,42 @@
 				"librarian": 1,
 				"mortal": 1
 			}
-		}
+		},
+		{
+			"id": "macguffin",
+			"label": "Necronomicon",
+			"description": "The book of forbidden knowledge written by the mad arab Abdul Al'Hazred.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "windingcorridor",
+			"label": "Dust covered Corridor",
+			"description": "A place where I can find something.",
+			"slots": [],
+			"aspects": {
+				"location": 1
+			}
+		},
+		{
+			"id": "librarypamphlet",
+			"label": "Library Pamphlet",
+			"description": "A pamphlet giving a presentation on the Library.",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
+		},
+        {
+			"id": "scrawleddirections",
+			"label": "Scrawled directions",
+			"description": "A handwritten map guiding you to The Library",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
+        }
 	]
 }

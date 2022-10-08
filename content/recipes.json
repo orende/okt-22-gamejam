@@ -1,10 +1,13 @@
 {
     "recipes": [
         {
-            "id": "library.intro",
-            "actionid": "library.explore",
+            "id": "intro",
+            "actionid": "explore",
             "requirements": {
-                "sentence": 1
+                "scrawleddirections": 1
+            },
+            "effects": {
+                "scrawleddirections": -1
             },
             "craftable": true,
             "label": "Arrival at the library",
@@ -13,17 +16,48 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "library.addexplore",
+                    "id": "addtalk",
                     "additional": "true"
                 }
             ]
         },
         {
-            "id": "library.addexplore",
-            "actionid": "library.explore",
+            "id": "addtalk",
+            "actionid": "talk",
             "label": "Walking, walking",
-            "startdescription": "Where will I find myself?",
-            "description": "Woop",
+            "startdescription": "Maybe I can find someone who can help me?",
+            "description": "Behold! A libarian appears on front of me. He introduces himself as \"Kevin\". What a peculiar name.",
+            "effects": {
+                "kevin": 1,
+                "lobby": 1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "talkwithkevin",
+            "actionid": "talk",
+            "label": "Talk to Kevin",
+            "requirements": {
+                "kevin": 1
+            },
+            "craftable": true,
+            "startdescription": "Maybe he can give me some directions?",
+            "description": "\"Uuh, I just started here. I found this pamphlet in my desk, maybe it can help you?\"",
+            "effects": {
+                "librarypamphlet": 1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "explorewithpamphlet",
+            "actionid": "study",
+            "label": "Read the pamphlet",
+            "craftable": true,
+            "startdescription": "The pamphlet contains an useful map in its map. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
+            "description": "Found something!",
+            "effects": {
+                "pamphletdeck": 1
+            },
             "warmup": 30
         }
     ]

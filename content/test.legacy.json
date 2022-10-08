@@ -6,11 +6,11 @@
             "label": "test.legacy",
             "description": "Explore The Library",
             "startdescription": "No one truly knows how vast The Library is.",
-            "startingverbid": "library.talk",
+            "startingverbid": "explore",
             "availableWithoutEndingMatch": true,
             "newstart": true,
             "effects": {
-                "library.kevin": 1
+                "scrawleddirections": 1
             },
             "statusbarelements": [
             ]

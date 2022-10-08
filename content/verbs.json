@@ -1,11 +1,11 @@
 {
 	"verbs": [
         {
-            "id": "library.study",
+            "id": "study",
             "label": "Study",
             "description": "Unlock books and other treasures.",
             "slot": {
-                "id": "study",
+                "id": "studyslot1",
                 "label": "Study",
                 "description": "The invisible arts could occupy ten lifetimes of study.",
                 "required": {
@@ -19,11 +19,11 @@
              }
         },
         {
-            "id": "library.talk",
+            "id": "talk",
             "label": "Talk",
             "description": "Interrogate, intimidate, beguile, instruct, recruit.",
             "slot": {
-                "id": "talk",
+                "id": "talkslot1",
                 "label": "Talk",
                 "description": "An ally, an enemy, or something in between.",
                 "required": {
@@ -39,17 +39,18 @@
             }
         },
 		{
-			"id": "library.explore",
+			"id": "explore",
 			"label": "Explore",
 			"description": "Explore the Library with Health or Followers; explore locations; or investigate the possibilities of knowledge. Exploration is often unpredictable.",
 			"slot": {
-				"id": "explore",
+				"id": "exploreslot1",
 				"label": "Explore",
 				"description": "A place; a person; a location; a secret.",
 				"required": {
 					"health": 1,
 					"follower": 1,
-					"location": 1
+					"location": 1,
+                    "directions": 1
 				},
 				"forbidden": {
 					"hireling": 1
