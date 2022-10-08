@@ -73,6 +73,18 @@
                 "pamphletdeck": 1
             },
             "warmup": 10
-        }
+        },
+        {
+			"id": "study.macguffin",
+			"warmup": 30,
+            "actionid": "study",
+			"craftable": true,
+			"signalimportantloop": true,
+			"requirements": {
+				"macguffin": 1
+			},
+			"ending": "bookofdreamsread",
+			"signalEndingFlavour": "Grand"
+		}
     ]
 }
