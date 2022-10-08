@@ -1,7 +1,7 @@
 {
 	"verbs": [
         {
-            "id": "library.study",
+            "id": "study",
             "label": "Study",
             "description": "Unlock books and other treasures.",
             "slot": {
@@ -19,7 +19,7 @@
              }
         },
         {
-            "id": "library.talk",
+            "id": "talk",
             "label": "Talk",
             "description": "Interrogate, intimidate, beguile, instruct, recruit.",
             "slot": {
@@ -39,7 +39,7 @@
             }
         },
 		{
-			"id": "library.explore",
+			"id": "explore",
 			"label": "Explore",
 			"description": "Explore the Library with Health or Followers; explore locations; or investigate the possibilities of knowledge. Exploration is often unpredictable.",
 			"slot": {
@@ -49,12 +49,33 @@
 				"required": {
 					"health": 1,
 					"follower": 1,
-					"location": 1
+					"location": 1,
+                    "directions": 1
 				},
 				"forbidden": {
 					"hireling": 1
 				}
 			}
-		}
+		},
+        {
+            "id": "addtalk",
+            "label": "Talk",
+            "description": "Interrogate, intimidate, beguile, instruct, recruit.",
+            "slot": {
+                "id": "talk",
+                "label": "Talk",
+                "description": "An ally, an enemy, or something in between.",
+                "required": {
+                    "mortal": 1,
+                    "summoned": 1,
+                    "patron": 1,
+                    "society": 1,
+                    "hq": 1
+                },
+                "forbidden": {
+                    "wary": 1
+                }
+            }
+        }
 	]
 }

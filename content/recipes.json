@@ -1,10 +1,13 @@
 {
     "recipes": [
         {
-            "id": "library.intro",
-            "actionid": "library.explore",
+            "id": "intro",
+            "actionid": "explore",
             "requirements": {
-                "sentence": 1
+                "scrawleddirections": 1
+            },
+            "effects": {
+                "scrawleddirections": -1
             },
             "craftable": true,
             "label": "Arrival at the library",
@@ -13,17 +16,20 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "library.addexplore",
+                    "id": "addexplore",
                     "additional": "true"
                 }
             ]
         },
         {
-            "id": "library.addexplore",
-            "actionid": "library.explore",
+            "id": "addexplore",
+            "actionid": "talk",
             "label": "Walking, walking",
-            "startdescription": "Where will I find myself?",
-            "description": "Woop",
+            "startdescription": "Maybe I can find someone who can help me?",
+            "description": "Behold! A libarian appears on front of me. He introduces himself as \"Kevin\". What a peculiar name.",
+            "effects": {
+                "kevin": 1
+            },
             "warmup": 30
         }
     ]
