@@ -1,17 +1,58 @@
 {
-    "verbs": [
+	"verbs": [
         {
-            "id": "shout",
-            "label": "Shout",
-            "description": "Just shout loudly in the room. The librarians are sure to appreciate it.",
+            "id": "library.study",
+            "label": "Study",
+            "description": "Unlock books and other treasures.",
+            "id": "library.talk",
+            "label": "Talk",
+            "description": "Talk with the staff",
             "slot": {
-                "id": "sentence",
-                "label": "A Sentence",
-                "description": "A sentence to shout out at the world.",
+                "id": "talk.person",
+                "label": "A Person",
+                "description": "Just a guy",
                 "required": {
-                    "sentence": 1
+                    "person": 1
                 }
             }
-        }
-    ]
+        },
+        {
+            "id": "library.talk",
+            "label": "Talk",
+            "description": "Interrogate, intimidate, beguile, instruct, recruit.",
+            "slot": {
+                "id": "talk",
+                "label": "Talk",
+                "description": "An ally, an enemy, or something in between.",
+                "required": {
+                    "mortal": 1,
+                    "summoned": 1,
+                    "patron": 1,
+                    "society": 1,
+                    "hq": 1
+                },
+                "forbidden": {
+                    "wary": 1
+                }
+            }
+        },
+		{
+			"id": "library.explore",
+			"label": "Explore",
+			"description": "Explore the Library with Health or Followers; explore locations; or investigate the possibilities of knowledge. Exploration is often unpredictable.",
+			"slot": {
+				"id": "explore",
+				"label": "Explore",
+				"description": "A place; a person; a location; a secret.",
+				"required": {
+					"health": 1,
+					"follower": 1,
+					"location": 1
+				},
+				"forbidden": {
+					"hireling": 1
+				}
+			}
+		}
+	]
 }

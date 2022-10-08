@@ -1,14 +1,34 @@
 {
-    "elements": [
-        {
-            "id": "sentence",
-            "label": "A Sentence",
-            "description": "Just something."
-        },
-        {
-            "id": "noise",
-            "label": "Noise level",
-            "description": "The amount of noise you're currently making"
-        }
-    ]
+	"elements": [
+		{
+			"id": "sentence",
+			"label": "A Sentence",
+			"description": "Just something.",
+			"slots": []
+		},
+		{
+			"id": "noise",
+			"label": "Noise level",
+			"description": "The amount of noise you're currently making",
+			"slots": []
+		},
+		{
+			"id": "libarylobby",
+			"label": "Libary Lobby",
+			"slots": [],
+			"aspects": {
+				"location": 1
+			}
+		},
+		{
+			"id": "kevin",
+			"label": "Kevin",
+			"description": "Works in the lobby sometimes.",
+			"slots": [],
+			"aspects": {
+				"librarian": 1,
+				"mortal": 1
+			}
+		}
+	]
 }
