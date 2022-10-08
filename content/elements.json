@@ -42,10 +42,10 @@
 			"description": "A pamphlet giving a presentation on the Library.",
 			"slots": [],
 			"aspects": {
-				"text": 1
+				"directions": 1
 			}
 		},
-		{
+        {
 			"id": "scrawleddirections",
 			"label": "Scrawled directions",
 			"description": "A handwritten map guiding you to The Library",
@@ -53,6 +53,6 @@
 			"aspects": {
 				"directions": 1
 			}
-		}
+        }
 	]
 }
