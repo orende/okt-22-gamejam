@@ -42,7 +42,7 @@
 			"description": "A pamphlet giving a presentation on the Library.",
 			"slots": [],
 			"aspects": {
-				"directions": 1
+                "text": 1
 			}
 		},
         {

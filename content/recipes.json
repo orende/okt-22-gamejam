@@ -13,7 +13,7 @@
             "label": "Arrival at the library",
             "startdescription": "I cross the threshold and enter. No turning back now.",
             "description": "Walk until the third door on th left, past the statues, down a staircase, follow the signs. You're not entirely sure how, but you've finally arrived at the lobby",
-            "warmup": 30,
+            "warmup": 10,
             "alt": [
                 {
                     "id": "addtalk",
@@ -31,7 +31,7 @@
                 "kevin": 1,
                 "lobby": 1
             },
-            "warmup": 30
+            "warmup": 10
         },
         {
             "id": "talkwithkevin",
@@ -46,7 +46,21 @@
             "effects": {
                 "librarypamphlet": 1
             },
-            "warmup": 30
+            "alt": [
+                {
+                    "id": "addstudy",
+                    "additional": "true"
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "addstudy",
+            "actionid": "study",
+            "label": "I need a place to study what I've found.",
+            "startdescription": "This place looks like a cozy place, if I clean it up slightly ",
+            "description": "I've made a desk and a chair out of some books.",
+            "warmup": 10
         },
         {
             "id": "explorewithpamphlet",
@@ -58,7 +72,7 @@
             "effects": {
                 "pamphletdeck": 1
             },
-            "warmup": 30
+            "warmup": 10
         }
     ]
 }
