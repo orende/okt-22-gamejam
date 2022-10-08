@@ -20,8 +20,8 @@
 		},
 		{
 			"id": "macguffin",
-			"label": "Necronomicon",
-			"description": "The book of forbidden knowledge written by the mad arab Abdul Al'Hazred.",
+			"label": "The Book of Dreams",
+			"description": "This book is said to make your dreams come true. Is that something you want? Are you prepared for the consequences?",
 			"slots": [],
 			"aspects": {
 				"text": 1
