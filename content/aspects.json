@@ -1,9 +1,14 @@
 {
-    "elements": [
-        {
-            "id": "cattreasure",
-            "label": "Cat-Treasure",
-            "description": "Some would call it \"junk\". I call it \"treasure\", because it's mine."
-        }
-    ]
+	"elements": [
+		{
+			"id": "cattreasure",
+			"label": "Cat-Treasure",
+			"description": "Some would call it \"junk\". I call it \"treasure\", because it's mine.",
+			"slots": []
+		},
+		{
+			"id": "librarian",
+			"isAspect": true
+		}
+	]
 }
