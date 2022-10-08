@@ -1,7 +1,7 @@
 {
 	"elements": [
 		{
-			"id": "library.lobby",
+			"id": "lobby",
 			"label": "Libary Lobby",
 			"slots": [],
 			"aspects": {
@@ -9,7 +9,7 @@
 			}
 		},
 		{
-			"id": "library.kevin",
+			"id": "kevin",
 			"label": "Kevin",
 			"description": "Works in the lobby sometimes.",
 			"slots": [],
@@ -26,6 +26,15 @@
 			"aspects": {
 				"text": 1
 			}
-		}
+		},
+        {
+			"id": "scrawleddirections",
+			"label": "Scrawled directions",
+			"description": "A handwritten map guiding you to The Library",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
+        }
 	]
 }

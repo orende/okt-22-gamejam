@@ -1,39 +1,45 @@
 {
 	"elements": [
 		{
-			"id": "library.mortal",
+			"id": "mortal",
             "label": "Mortal",
             "description": "One of the mundane. A mortal. Just like us.",
 			"isAspect": true
 		},
 		{
-			"id": "library.summoned",
+			"id": "summoned",
             "label": "Summoned",
             "description": "Something which did not originate in this plane of existence. Something which has been brought here. Likely against it's will",
 			"isAspect": true
 		},
 		{
-			"id": "library.patron",
+			"id": "patron",
             "label": "Patron",
             "description": "A patron of the arts",
 			"isAspect": true
 		},
 		{
-			"id": "library.society",
+			"id": "society",
             "label": "Society",
             "description": "We live in one.",
 			"isAspect": true
 		},
 		{
-			"id": "library.hq",
+			"id": "hq",
             "label": "HQ",
             "description": "A corner of the library that can be used as a home, of sorts.",
 			"isAspect": true
 		},
 		{
-			"id": "library.librarian",
+			"id": "librarian",
             "label": "Librarian",
             "description": "One of the uncountable number of libarians inhabiting the library",
+			"isAspect": true
+		},
+		{
+			"id": "directions",
+            "label": "Directions",
+            "description": "Knowing where to go, what steps to take.",
 			"isAspect": true
 		}
 	]
