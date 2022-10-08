@@ -34,9 +34,10 @@
             "warmup": 10
         },
         {
-            "id": "talkwithkevin",
+            "id": "talkwithkevin.pamphlet",
             "actionid": "talk",
             "label": "Talk to Kevin",
+            "maxexecutions": 1,
             "requirements": {
                 "kevin": 1
             },
@@ -69,6 +70,9 @@
             "craftable": true,
             "startdescription": "The pamphlet contains an useful map in its map. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
             "description": "Found something!",
+            "requirements": {
+                "librarypamphlet": 1
+            },
             "deckeffects": {
                 "pamphletdeck": 1
             },
