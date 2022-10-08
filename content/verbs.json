@@ -4,17 +4,19 @@
             "id": "library.study",
             "label": "Study",
             "description": "Unlock books and other treasures.",
-            "id": "library.talk",
-            "label": "Talk",
-            "description": "Talk with the staff",
             "slot": {
-                "id": "talk.person",
-                "label": "A Person",
-                "description": "Just a guy",
+                "id": "study",
+                "label": "Study",
+                "description": "The invisible arts could occupy ten lifetimes of study.",
                 "required": {
+                    "text": 1,
+                    "ability": 1,
+                    "tutor": 1,
+                    "language": 1,
+                    "legacyplotitem": 1,
                     "person": 1
-                }
-            }
+                 }
+             }
         },
         {
             "id": "library.talk",
