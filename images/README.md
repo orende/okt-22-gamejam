@@ -1,8 +1,8 @@
-= Images =
+# Images
 
 Put images file in their respective category folders.
 
-= Size rules = 
+## Size rules
 
 Aspect icons should be at most 128x128.
 Element icons should be at most 256x256.
