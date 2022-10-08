@@ -28,7 +28,8 @@
             "startdescription": "Maybe I can find someone who can help me?",
             "description": "Behold! A libarian appears on front of me. He introduces himself as \"Kevin\". What a peculiar name.",
             "effects": {
-                "kevin": 1
+                "kevin": 1,
+                "lobby": 1
             },
             "warmup": 30
         }

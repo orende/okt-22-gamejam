@@ -56,26 +56,6 @@
 					"hireling": 1
 				}
 			}
-		},
-        {
-            "id": "addtalk",
-            "label": "Talk",
-            "description": "Interrogate, intimidate, beguile, instruct, recruit.",
-            "slot": {
-                "id": "talk",
-                "label": "Talk",
-                "description": "An ally, an enemy, or something in between.",
-                "required": {
-                    "mortal": 1,
-                    "summoned": 1,
-                    "patron": 1,
-                    "society": 1,
-                    "hq": 1
-                },
-                "forbidden": {
-                    "wary": 1
-                }
-            }
-        }
+		}
 	]
 }
