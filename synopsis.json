@@ -1,1 +1,7 @@
-{}
+{
+    "name":"",
+    "author":"HOJJ",
+    "version": "1.0",
+    "description": "An example mod for our gamejam",
+    "description_long": "Same as above, but longer..."
+}
