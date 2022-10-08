@@ -9,7 +9,7 @@
             "description": "Talk with the staff",
             "slot": {
                 "id": "talk.person",
-                "label": "Whom to talk to",
+                "label": "A Person",
                 "description": "Just a guy",
                 "required": {
                     "person": 1
