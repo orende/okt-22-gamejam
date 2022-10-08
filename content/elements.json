@@ -26,6 +26,15 @@
 			"aspects": {
 				"text": 1
 			}
+		},
+		{
+			"id": "librarypamphlet",
+			"label": "Library Pamphlet",
+			"description": "A pamphlet giving a presentation on the Library.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
 		}
 	]
 }
