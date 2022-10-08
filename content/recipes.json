@@ -1,0 +1,16 @@
+{
+    "recipes": [
+        {
+            "id": "chi.askforcuddlesandfood",
+            "actionid": "bother",
+            "requirements": {
+                "attention": 1
+            },
+            "craftable": true,
+            "label": "Ask for Cuddles and Food",
+            "startdescription": "If I bother them long enough or sit on inappropriate places, maybe they'll finally notice me. And give me <i>stuff</i>.",
+            "description": "At first, they tried to do as if I wasn't really there, ASKING politely. But in the end, I got a few cuddles. Good enough.",
+            "warmup" : 30
+        }
+    ]
+}
