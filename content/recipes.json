@@ -16,13 +16,13 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "addexplore",
+                    "id": "addtalk",
                     "additional": "true"
                 }
             ]
         },
         {
-            "id": "addexplore",
+            "id": "addtalk",
             "actionid": "talk",
             "label": "Walking, walking",
             "startdescription": "Maybe I can find someone who can help me?",
@@ -36,11 +36,15 @@
         {
             "id": "talkwithkevin",
             "actionid": "talk",
-            "label": "Talk with Kevin",
+            "label": "Talk to Kevin",
+            "requirements": {
+                "kevin": 1
+            },
+            "craftable": true,
             "startdescription": "Maybe he can give me some directions?",
             "description": "\"Uuh, I just started here. I found this pamphlet in my desk, maybe it can help you?\"",
             "effects": {
-                "pamphlet": 1
+                "librarypamphlet": 1
             },
             "warmup": 30
         },
@@ -48,6 +52,7 @@
             "id": "explorewithpamphlet",
             "actionid": "study",
             "label": "Read the pamphlet",
+            "craftable": true,
             "startdescription": "The pamphlet contains an useful map in its map. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
             "description": "Found something!",
             "effects": {
@@ -55,6 +60,5 @@
             },
             "warmup": 30
         }
-
     ]
 }
