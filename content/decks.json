@@ -1,4 +1,10 @@
 {
     "decks": [
+        {
+            "id": "pamphletdeck",
+            "label": "Possible locations found on the pamphlet",
+            "spec": [
+            ]
+        }
     ]
 }

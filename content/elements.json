@@ -33,7 +33,7 @@
 			"description": "A pamphlet giving a presentation on the Library.",
 			"slots": [],
 			"aspects": {
-				"text": 1
+				"directions": 1
 			}
 		},
         {
