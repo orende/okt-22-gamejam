@@ -10,7 +10,7 @@
             "availableWithoutEndingMatch": true,
             "newstart": true,
             "effects": {
-                "kevin": 1
+                "library.kevin": 1
             },
             "statusbarelements": [
             ]
