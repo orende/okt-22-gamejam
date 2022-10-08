@@ -34,9 +34,10 @@
             "warmup": 10
         },
         {
-            "id": "talkwithkevin",
+            "id": "talkwithkevin.pamphlet",
             "actionid": "talk",
             "label": "Talk to Kevin",
+            "maxexecutions": 1,
             "requirements": {
                 "kevin": 1
             },
