@@ -71,6 +71,15 @@
 			"aspects": {
 				"text": 1
 			}
+		},
+		{
+			"id": "bookofmirrors",
+			"label": "Zallingers Book of Mirrors",
+			"description": "Father Zallingers' book describes the Yellow Emperor's battle against the mirror people, who were ultimately banished and forced to imitate all who looked at them.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
 		}
 	]
 }
