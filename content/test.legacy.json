@@ -1,0 +1,21 @@
+{
+    "legacies": [
+        {
+            "id": "test.legacy",
+            "image": "test.legacy",
+            "label": "test.legacy",
+            "description": "Hej hej här är en beskrivning",
+            "startdescription": "Hej hej här är en beskrivning",
+            "startingverbid": "test",
+            "availableWithoutEndingMatch": true,
+            "newstart": true,
+            "effects": {
+                "attention": 1
+            },
+            "statusbarelements": [
+                "cattreasure"
+            ]
+
+        }
+    ]
+}
