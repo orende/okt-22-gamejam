@@ -17,6 +17,15 @@
 				"librarian": 1,
 				"mortal": 1
 			}
+		},
+		{
+			"id": "macguffin",
+			"label": "Necronomicon",
+			"description": "The book of forbidden knowledge written by the mad arab Abdul Al'Hazred.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
 		}
 	]
 }
