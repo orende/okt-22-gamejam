@@ -1,0 +1,14 @@
+{
+	"verbs": [
+		{
+			"id": "joel.verb.test",
+			"description": "Revile my test cards.",
+			"slot": {
+				"id": "joel.verb.test",
+				"required": {
+					"joel": 1
+				}
+			}
+		}
+	]
+}
