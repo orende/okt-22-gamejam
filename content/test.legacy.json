@@ -11,7 +11,7 @@
             "newstart": true,
             "effects": {
                 "lost": 1,
-                "scrawleddirections": 1
+                "scrawleddirections": 1,
                 "litcandle": 1
             },
             "statusbarelements": [
