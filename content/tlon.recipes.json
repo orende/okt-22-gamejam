@@ -1,57 +1,74 @@
 {
-	"recipes": [{
-        "id": "study.GeographyofMlejnas",
-        "label": "Read Geography of Mlejnas",
-        "maxexecutions": 1,
-        "warmup": 30,
-        "actionId": "study",
-        "craftable": true,
-        "requirements": {
-            "book.mlejnas": 1
-        }
-    },
-    {
-        "id": "study.Writingsvol13byDeQuincey",
-        "label": "Read Writings vol 13 by De Quincey",
-        "maxexecutions": 1,
-        "warmup": 30,
-        "actionId": "study",
-        "craftable": true,
-        "requirements": {
-            "book.quincey": 1
-        }
-    },
-    {
-        "id": "study.TheHistoryoftheLandcalledOoqbar",
-        "label": "Read The History of the Land called Ooqbar",
-        "maxexecutions": 1,
-        "warmup": 30,
-        "actionId": "study",
-        "craftable": true,
-        "requirements": {
-            "book.ooqbar": 1
-        }
-    },
-    {
-        "id": "study.ATreatiseonOrbisTertius",
-        "label": "Read A Treatise on Orbis Tertius",
-        "maxexecutions": 1,
-        "warmup": 30,
-        "actionId": "study",
-        "craftable": true,
-        "requirements": {
-            "book.orbiustertius": 1
-        }
-    },
-    {
-        "id": "study.TheTalesofImaginaryRozencross",
-        "label": "Read The Tales of Imaginary Rozencross",
-        "maxexecutions": 1,
-        "warmup": 30,
-        "actionId": "study",
-        "craftable": true,
-        "requirements": {
-            "book.rozencross": 1
-        }
-    }]
+	"recipes": [
+		{
+			"id": "study.GeographyofMlejnas",
+			"label": "Read Geography of Mlejnas",
+			"maxexecutions": 1,
+			"warmup": 30,
+			"craftable": true,
+			"requirements": {
+				"book.mlejnas": 1
+			},
+			"effects": {
+				"ulk": 1
+			},
+			"actionId": "study"
+		},
+		{
+			"id": "study.Writingsvol13byDeQuincey",
+			"label": "Read Writings vol 13 by De Quincey",
+			"maxexecutions": 1,
+			"warmup": 30,
+			"craftable": true,
+			"requirements": {
+				"book.quincey": 1
+			},
+			"effects": {
+				"ulk": 1
+			},
+			"actionId": "study"
+		},
+		{
+			"id": "study.TheHistoryoftheLandcalledOoqbar",
+			"label": "Read The History of the Land called Ooqbar",
+			"maxexecutions": 1,
+			"warmup": 30,
+			"craftable": true,
+			"requirements": {
+				"book.ooqbar": 1
+			},
+			"effects": {
+				"book.firsttlon": 1
+			},
+			"actionId": "study"
+		},
+		{
+			"id": "study.ATreatiseonOrbisTertius",
+			"label": "Read A Treatise on Orbis Tertius",
+			"maxexecutions": 1,
+			"warmup": 30,
+			"craftable": true,
+			"requirements": {
+				"book.orbiustertius": 1
+			},
+			"effects": {
+				"ulk": 1
+			},
+			"actionId": "study"
+		},
+		{
+			"id": "study.TheTalesofImaginaryRozencross",
+			"label": "Read The Tales of Imaginary Rozencross",
+			"maxexecutions": 1,
+			"warmup": 30,
+			"craftable": true,
+			"requirements": {
+				"book.rozencross": 1
+			},
+			"effects": {
+				"ulk": 1
+			},
+			"actionId": "study"
+		}
+	]
 }
