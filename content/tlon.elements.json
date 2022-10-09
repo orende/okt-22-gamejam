@@ -1,77 +1,86 @@
 {
-    "elements": [
-        {
-            "id": "linguist",
-            "label": "Linguist Librarian",
-            "description": "A seeker of dead and dying languages.",
-            "slots": [],
-            "aspects": {
-                "librarian": 1,
-                "mortal": 1
-            }
-        },
-        {
-            "id": "languagessubsection",
-            "label": "Ancient Languages subsection",
-            "description": "Contains books on vocabulary and grammar.",
-            "slots": [],
-            "aspects": {
-                "location": 1
-            }
-        },
-        {
-            "id": "book.mlejnas",
-            "label": "Geography of Mlejnas",
-            "description": "A extensive and professional book of imaginary geography.",
-            "slots": [],
-            "aspects": {
-                "text": 1
-            }
-        },
-        {
-            "id": "book.ooqbar",
-            "label": "The History of the Land called Ooqbar",
-            "description": "An illustrated history of Ooqbar in the near-Orient.",
-            "slots": [],
-            "aspects": {
-                "text": 1
-            }
-        },
-        {
-            "id": "book.quincey",
-            "label": "Writings vol 13 by De Quincey",
-            "description": "Short articles on imaginary places.",
-            "slots": [],
-            "aspects": {
-                "text": 1
-            }
-        },
-        {
-            "id": "book.orbiustertius",
-            "label": "A Treatise on Orbis Tertius",
-            "description": "A perfect world... if only it existed.",
-            "slots": [],
-            "aspects": {
-                "text": 1
-            }
-        },
-        {
-            "id": "book.rozencross",
-            "label": "The Tales of Imaginary Rozencross",
-            "description": "Stories of a dreamed place far away.",
-            "slots": [],
-            "aspects": {
-                "text": 1
-            }
-        },
-        {
-            "id": "book.firsttlon",
-            "label": "The First Encyclopedia of Tlön",
-            "description": "A book that may hold the key to everything.",
-            "slots": [],
-            "aspects": {
-                "text": 1
-            }
-        }
-    ]
+	"elements": [
+		{
+			"id": "linguist",
+			"label": "Linguist Librarian",
+			"description": "A seeker of dead and dying languages.",
+			"slots": [],
+			"aspects": {
+				"librarian": 1,
+				"mortal": 1
+			}
+		},
+		{
+			"id": "languagessubsection",
+			"label": "Ancient Languages subsection",
+			"description": "Contains books on vocabulary and grammar.",
+			"slots": [],
+			"aspects": {
+				"location": 1
+			}
+		},
+		{
+			"id": "book.mlejnas",
+			"label": "Geography of Mlejnas",
+			"description": "A extensive and professional book of imaginary geography.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "book.ooqbar",
+			"label": "The History of the Land called Ooqbar",
+			"description": "An illustrated history of Ooqbar in the near-Orient.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "book.quincey",
+			"label": "Writings vol 13 by De Quincey",
+			"description": "Short articles on imaginary places.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "book.orbiustertius",
+			"label": "A Treatise on Orbis Tertius",
+			"description": "A perfect world... if only it existed.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "book.rozencross",
+			"label": "The Tales of Imaginary Rozencross",
+			"description": "Stories of a dreamed place far away.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "book.firsttlon",
+			"label": "The First Encyclopedia of Tlön",
+			"description": "A book that may hold the key to everything.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "d.languagessubsection",
+			"label": "Directions to Ancient Languages subsection",
+			"description": "This is opscure but ockey... its in stone.",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
+		}
+	]
 }
