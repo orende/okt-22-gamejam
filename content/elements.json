@@ -90,6 +90,16 @@
 				"directions": 1
 			}
         },
+		{
+			"id": "joel",
+			"label": "Joel",
+			"description": "Hi",
+			"slots": [],
+			"aspects": {
+				"mortal": 1,
+				"librarian": 1
+			}
+		},
         {
             "id": "litcandle",
             "label": "Lit Candle",

@@ -1,0 +1,14 @@
+{
+	"elements": [
+		{
+			"id": "lumstone",
+			"label": "Luminous Stone",
+			"slots": []
+		},
+		{
+			"id": "lumstone.exhausted",
+			"label": "Luminous Stone [Exhausted]",
+			"slots": []
+		}
+	]
+}
