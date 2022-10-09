@@ -104,7 +104,7 @@
         },
         {
             "id": "unlitcandle",
-            "label": "Unlist Candle",
+            "label": "Unlit Candle",
             "description": "It's a candlestick. It does not do much good in its current, non-burning state",
             "slots": [],
             "aspects": {

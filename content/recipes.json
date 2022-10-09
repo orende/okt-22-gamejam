@@ -84,22 +84,46 @@
             "warmup": 10
         },
         {
-			"id": "study.macguffin",
-			"warmup": 30,
+            "id": "study.macguffin",
+            "warmup": 30,
             "actionid": "study",
-			"craftable": true,
-			"signalimportantloop": true,
-			"requirements": {
-				"macguffin": 1
-			},
-			"ending": "bookofdreamsread",
-			"signalEndingFlavour": "Grand"
-		},
+            "craftable": true,
+            "signalimportantloop": true,
+            "requirements": {
+                "macguffin": 1
+            },
+            "ending": "bookofdreamsread",
+            "signalEndingFlavour": "Grand"
+        },
         {
-            "id": "lightcandle",
+            "id": "talkwithkevin.further",
+            "actionid": "talk",
+            "label": "Talk to Kevin",
+            "requirements": {
+                "kevin": 1
+            },
+            "slots": [
+                {
+                    "id": "asd",
+                    "label": "Subject",
+                    "description": "."
+                }
+            ],
+            "craftable": true,
+            "startdescription": "What about this thingy?",
+            "description": "\"Huh??\"",
+            "alt": [
+                {
+                    "id": "talkwithkevin.lightcandle",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "talkwithkevin.lightcandle",
             "actionid": "talk",
             "label": "Ask Kevin to light the candle",
-            "craftable": true,
             "startdescription": "\"Pretty please?\"",
             "description": "Luckily Kevin is a smoker, so he lights the candle with his lighter",
             "requirements": {
@@ -109,8 +133,7 @@
             "effects": {
                 "unlitcandle": -1,
                 "litcandle": 1
-            },
-            "warmup": 10
+            }
         }
     ]
 }
