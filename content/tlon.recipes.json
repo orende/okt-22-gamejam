@@ -83,8 +83,8 @@
         {
             "id": "linguist.talk",
 			"label": "Talk to a Linguist",
-			"startdescription": ".",
-			"description": ".",
+			"startdescription": "I am the administrator of the subsection of ancient languages. The books contained here describe the vocabularies and grammars of all the known languages, regardless of whether they are living, dead or dying.",
+			"description": "A book that will help you fulfill your dreams? Language is a key that can open many locks, perhaps also that one? Take this book and read it. It might hold the answer you seek.",
 			"warmup": 30,
 			"craftable": true,
 			"requirements": {
