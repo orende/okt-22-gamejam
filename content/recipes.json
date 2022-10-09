@@ -1,154 +1,145 @@
 {
-    "recipes": [
-        {
-            "id": "intro",
-            "actionid": "explore",
-            "requirements": {
-                "scrawleddirections": 1
-            },
-            "effects": {
-                "scrawleddirections": -1
-            },
-            "craftable": true,
-            "label": "Arrival at the library",
-            "startdescription": "I cross the threshold and enter. No turning back now.",
-            "description": "Walk until the third door on the left, past the statues, down a staircase, follow the signs. You're not entirely sure how, but you've finally arrived at the lobby.",
-            "warmup": 10,
-            "alt": [
-                {
-                    "id": "addtalk",
-                    "additional": "true"
-                },
-                {
-                    "id": "addjoelverb",
-                    "additional": "true"
-                }
-            ]
-        },
-        {
-            "id": "addtalk",
-            "actionid": "talk",
-            "label": "Walking, walking",
-            "startdescription": "Maybe I can find someone who can help me?",
-            "description": "Behold! A libarian appears on front of me. He introduces himself as \"Kevin\". What a peculiar name.",
-            "effects": {
-                "kevin": 1,
-                "lobby": 1
-            },
-            "burnimage": "burns1",
-            "warmup": 10
-        },
-        {
-            "id": "talkwithkevin.pamphlet",
-            "actionid": "talk",
-            "label": "Talk to Kevin",
-            "maxexecutions": 1,
-            "requirements": {
-                "kevin": 1
-            },
-            "craftable": true,
-            "startdescription": "Maybe he can give me some directions?",
-            "description": "\"Uh, I just started here. I found this pamphlet in my desk, maybe it can help you?\"",
-            "effects": {
-                "librarypamphlet": 1
-            },
-            "alt": [
-                {
-                    "id": "addstudy",
-                    "additional": "true"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "addstudy",
-            "actionid": "study",
-            "label": "I need a place to study what I've found.",
-            "startdescription": "This place looks like a cozy place, if I clean it up slightly.",
-            "description": "I've made a desk and a chair out of some books.",
-            "warmup": 10
-        },
-        {
-            "id": "addjoelverb",
-            "actionid": "joel.verb.test",
-            "label": "Joels verbtest.",
-            "startdescription": "Start description.",
-            "description": "End description.",
-            "warmup": 10
-        },
-        {
-            "id": "explorewithpamphlet",
-            "actionid": "study",
-            "label": "Read the pamphlet",
-            "craftable": true,
-            "startdescription": "The pamphlet contains an useful map on its flipside. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
-            "maxexecutions": 4,
-            "description": "Found something!",
-            "requirements": {
-                "librarypamphlet": 1
-            },
-            "deckeffects": {
-                "pamphletdeck": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "study.macguffin",
-            "warmup": 30,
-            "actionid": "study",
-            "craftable": true,
-            "signalimportantloop": true,
-            "requirements": {
-                "macguffin": 1
-            },
-            "ending": "bookofdreamsread",
-            "signalEndingFlavour": "Grand"
-        },
-        {
-            "id": "talkwithkevin.further",
-            "actionid": "talk",
-            "label": "Talk to Kevin",
-            "requirements": {
-                "kevin": 1
-            },
-            "slots": [
-                {
-                    "id": "asd",
-                    "label": "Subject",
-                    "description": "."
-                }
-            ],
-            "craftable": true,
-            "startdescription": "Show item to Kevin",
-            "description": "Maybe he can help you.",
-            "alt": [
-                {
-                    "id": "talkwithkevin.lightcandle",
-                    "chance": 100
-                },
-                {
-                    "id": "talkwithkevin.holdcandle",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "talkwithkevin.lightcandle",
-            "actionid": "talk",
-            "label": "Ask Kevin to light the candle",
-            "startdescription": "\"Pretty please?\"",
-            "description": "Luckily Kevin is a smoker, so he lights the candle with his lighter",
-            "requirements": {
-                "kevin": 1,
-                "unlitcandle": 1
-            },
-            "effects": {
-                "unlitcandle": -1,
-                "litcandle": 1
-            }
-        },
-        {
+	"recipes": [
+		{
+			"id": "intro",
+			"label": "Arrival at the library",
+			"warmup": 10,
+			"craftable": true,
+			"startdescription": "I cross the threshold and enter. No turning back now.",
+			"description": "Walk until the third door on the left, past the statues, down a staircase, follow the signs. You're not entirely sure how, but you've finally arrived at the lobby.",
+			"requirements": {
+				"scrawleddirections": 1
+			},
+			"effects": {
+				"scrawleddirections": -1
+			},
+			"alt": [
+				{
+					"id": "addtalk",
+					"additional": "true"
+				},
+				{
+					"id": "addjoelverb",
+					"additional": "true"
+				}
+			]
+		},
+		{
+			"id": "addtalk",
+			"label": "Walking, walking",
+			"warmup": 10,
+			"startdescription": "Maybe I can find someone who can help me?",
+			"description": "Behold! A libarian appears on front of me. He introduces himself as \"Kevin\". What a peculiar name.",
+			"effects": {
+				"kevin": 1,
+				"lobby": 1
+			},
+			"burnimage": "burns1"
+		},
+		{
+			"id": "talkwithkevin.pamphlet",
+			"label": "Talk to Kevin",
+			"maxexecutions": 1,
+			"warmup": 10,
+			"craftable": true,
+			"startdescription": "Maybe he can give me some directions?",
+			"description": "\"Uh, I just started here. I found this pamphlet in my desk, maybe it can help you?\"",
+			"requirements": {
+				"kevin": 1
+			},
+			"effects": {
+				"librarypamphlet": 1
+			},
+			"alt": [
+				{
+					"id": "addstudy",
+					"additional": "true"
+				}
+			]
+		},
+		{
+			"id": "addstudy",
+			"label": "I need a place to study what I've found.",
+			"warmup": 10,
+			"startdescription": "This place looks like a cozy place, if I clean it up slightly.",
+			"description": "I've made a desk and a chair out of some books."
+		},
+		{
+			"id": "addjoelverb",
+			"label": "Joels verbtest.",
+			"warmup": 10,
+			"startdescription": "Start description.",
+			"description": "End description."
+		},
+		{
+			"id": "explorewithpamphlet",
+			"label": "Read the pamphlet",
+			"maxexecutions": 4,
+			"warmup": 10,
+			"craftable": true,
+			"startdescription": "The pamphlet contains an useful map on its flipside. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
+			"description": "Found something!",
+			"requirements": {
+				"librarypamphlet": 1
+			},
+			"deckeffects": {
+				"pamphletdeck": 1
+			}
+		},
+		{
+			"id": "study.macguffin",
+			"warmup": 30,
+			"craftable": true,
+			"signalimportantloop": true,
+			"requirements": {
+				"macguffin": 1
+			},
+			"ending": "bookofdreamsread",
+			"signalEndingFlavour": "Grand"
+		},
+		{
+			"id": "talkwithkevin.further",
+			"label": "Talk to Kevin",
+			"warmup": 10,
+			"craftable": true,
+			"slots": [
+				{
+					"id": "asd",
+					"label": "Subject",
+					"description": "."
+				}
+			],
+			"startdescription": "Show item to Kevin",
+			"description": "Maybe he can help you.",
+			"requirements": {
+				"kevin": 1
+			},
+			"alt": [
+				{
+					"id": "talkwithkevin.lightcandle",
+					"chance": 100
+				},
+				{
+					"id": "talkwithkevin.holdcandle",
+					"chance": 100
+				}
+			]
+		},
+		{
+			"id": "talkwithkevin.lightcandle",
+			"label": "Ask Kevin to light the candle",
+			"startdescription": "\"Pretty please?\"",
+			"description": "Luckily Kevin is a smoker, so he lights the candle with his lighter",
+			"requirements": {
+				"kevin": 1,
+				"unlitcandle": 1
+			},
+			"effects": {
+				"unlitcandle": -1,
+				"litcandle": 1
+			}
+		},
+		{
 			"id": "find.centrehall",
 			"label": "Following the directions to the Center Hall",
 			"warmup": 5,
@@ -177,24 +168,46 @@
 			"startdescription": "Walking through narrow corridors and curving paths.",
 			"description": "Her I ame."
 		},
-        {
-            "id": "talkwithkevin.holdcandle",
-            "actionid": "talk",
-            "label": "Ask Kevin to hold the candle",
-            "startdescription": "\"Uh, sure, I can hold the candle for you\"",
-            "description": "\"Do you want it back?\"",
-            "requirements": {
-                "kevin": 1,
-                "litcandle": 1
-            }
-        },
-        {
-            "id": "createt.book.macguffin",
-            "label": "Creating the Book of Dreams.",
-            "actionId": "study",
-            "requirements": {
-                "houndingvisions"
-            }
-        }
-    ]
+		{
+			"id": "talkwithkevin.holdcandle",
+			"label": "Ask Kevin to hold the candle",
+			"startdescription": "\"Uh, sure, I can hold the candle for you\"",
+			"description": "\"Do you want it back?\"",
+			"requirements": {
+				"kevin": 1,
+				"litcandle": 1
+			}
+		},
+		{
+			"id": "createt.book.macguffin",
+			"label": "Creating the Book of Dreams.",
+			"warmup": 60,
+			"craftable": true,
+			"slots": [
+				{
+					"id": "illuminatingpassage",
+					"label": "illuminatingpassage",
+					"required": {
+						"book.firsttlon": 1
+					},
+					"consumes": true
+				},
+				{
+					"id": "necessarytool",
+					"label": "necessarytool",
+					"required": {
+						"secretmirror": 1
+					},
+					"consumes": true
+				}
+			],
+			"requirements": {
+				"houndingvisions": 1
+			},
+			"effects": {
+				"macguffin": 1
+			},
+			"actionId": "study"
+		}
+	]
 }

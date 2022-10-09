@@ -147,6 +147,15 @@
 			"slots": [],
 			"lifetime": 30,
 			"resaturate": true
+		},
+		{
+			"id": "houndingvisions",
+			"label": "houndingvisions",
+			"description": ".",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
 		}
 	]
 }
