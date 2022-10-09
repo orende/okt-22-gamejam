@@ -118,11 +118,15 @@
                 }
             ],
             "craftable": true,
-            "startdescription": "What about this thingy?",
-            "description": "\"Huh??\"",
+            "startdescription": "Show item to Kevin",
+            "description": "Maybe he can help you.",
             "alt": [
                 {
                     "id": "talkwithkevin.lightcandle",
+                    "chance": 100
+                },
+                {
+                    "id": "talkwithkevin.holdcandle",
                     "chance": 100
                 }
             ],
@@ -171,6 +175,17 @@
 			"warmup": 5,
 			"startdescription": "Walking through narrow corridors and curving paths.",
 			"description": "Her I ame."
-		}
+		},
+        {
+            "id": "talkwithkevin.holdcandle",
+            "actionid": "talk",
+            "label": "Ask Kevin to hold the candle",
+            "startdescription": "\"Uh, sure, I can hold the candle for you\"",
+            "description": "\"Do you want it back?\"",
+            "requirements": {
+                "kevin": 1,
+                "litcandle": 1
+            }
+        }
     ]
 }
