@@ -18,6 +18,10 @@
                 {
                     "id": "addtalk",
                     "additional": "true"
+                },
+                {
+                    "id": "timepasses",
+                    "additional": "true"
                 }
             ]
         },
@@ -31,6 +35,7 @@
                 "kevin": 1,
                 "lobby": 1
             },
+            "burnimage": "burns1",
             "warmup": 10
         },
         {

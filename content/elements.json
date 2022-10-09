@@ -53,6 +53,43 @@
 			"aspects": {
 				"directions": 1
 			}
+        },
+		{
+			"id": "visiotundali",
+			"label": "Visio Tundali",
+			"description": "The Latin translation of an old Irish account of the castigated Titan Acheron, as witnessed by the lad Tundale in 13th century Cork.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "etruscanbookofdome",
+			"label": "The Etruscan Book of Domesday",
+			"description": "An book passed from from the Etruscan kingdoms teaching the art of divination. Not to be confused with the Etruscans' Acherontic books.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+		{
+			"id": "bookofmirrors",
+			"label": "Zallingers Book of Mirrors",
+			"description": "Father Zallingers' book describes the Yellow Emperor's battle against the mirror people, who were ultimately banished and forced to imitate all who looked at them.",
+			"slots": [],
+			"aspects": {
+				"text": 1
+			}
+		},
+        {
+			"id": "lost",
+			"label": "\"Am I... lost?\"",
+			"description": "\"Shit.\"",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
         }
+
 	]
 }
