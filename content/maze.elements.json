@@ -23,6 +23,14 @@
             "aspects": {
                 "location": 1
             }
+        },
+        {
+            "id": "secretmirror",
+            "label": "The Secret Mirror",
+            "description": "A mirror that is said to reveal any secret it is pointed at.",
+            "aspects": {
+                "finalingredient": 1
+            }
         }
     ]
 }
