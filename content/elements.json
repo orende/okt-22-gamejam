@@ -114,7 +114,7 @@
 		{
 			"id": "centrehall",
 			"label": "Centre Hall",
-			"description": "A round area under huge doume siling. The walls ar filld withe bocks and in the midel are meny reding tabels blaised.\n",
+			"description": "A round area under huge dome ceiling. The walls are filled with books and in the middle, many tables for reading are placed.",
 			"slots": [],
 			"aspects": {
 				"location": 1,
@@ -124,7 +124,7 @@
 		{
 			"id": "d.centerhall",
 			"label": "Directions to Centre Hall",
-			"description": "thay hav told me about the Centre Hall. This will led me ther.",
+			"description": "They have told me about the Centre Hall. This will led me there.",
 			"slots": [],
 			"aspects": {
 				"directions": 1
@@ -133,7 +133,7 @@
 		{
 			"id": "ulk",
 			"label": "Useless Knowledge",
-			"description": "This was not what I where looking for...",
+			"description": "This is not what I was looking for...",
 			"slots": [],
 			"lifetime": 30,
 			"resaturate": true
