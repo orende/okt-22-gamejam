@@ -47,8 +47,6 @@
 				"label": "Explore",
 				"description": "A place; a person; a location; a secret.",
 				"required": {
-					"health": 1,
-					"follower": 1,
 					"location": 1,
                     "directions": 1
 				},
