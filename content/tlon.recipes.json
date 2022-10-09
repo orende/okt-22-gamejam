@@ -115,25 +115,37 @@
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
+			"slots": [
+				{
+					"id": "light",
+					"label": "Lightsource",
+					"required": {
+						"light": 1
+					}
+				}
+			],
 			"startdescription": "This librarian stands in the middle of the subsection on ancient languages. He is reading several dictionaries while working on the translation of an antique-looking scroll. Could they be... a linguist?",
 			"description": "Perhaps this librarian can help you find the knowledge that you need? Only one way to find out.",
 			"requirements": {
 				"languagessubsection": 1
 			},
-            "slots": [
-                {
-                    "id": "light",
-                    "label": "Lightsource",
-                    "required": {
-                        "light": 1
-                    }
-                }
-            ],
 			"effects": {
 				"linguist": 1
 			},
+			"actionId": "explore"
+		},
+		{
+			"id": "followlangdirs",
+			"label": "Follow instruktions to the Anchient langdirs subsektion",
+			"warmup": 20,
+			"craftable": true,
+			"requirements": {
+				"d.languagessubsection": 1
+			},
+			"effects": {
+				"languagessubsection": 1
+			},
             "actionId": "explore"
-
 		}
 	]
 }
