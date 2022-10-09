@@ -14,7 +14,18 @@
                 "lost"
             ],
             "resetonexhaustion": true
+        },
+        {
+            "id": "tlondeck",
+            "label": "Books kept by the Linguist Librarian",
+            "spec": [
+                "book.mlejnas",
+                "book.ooqbar",
+                "book.quincey",
+                "book.orbiustertius",
+                "book.rozencross"
+            ],
+            "resetonexhaustion": false
         }
-
     ]
 }
