@@ -2,7 +2,7 @@
     "legacies": [
         {
             "id": "test.legacy",
-            "image": "test.legacy",
+            "image": "scholar.legacy",
             "label": "The Library of Many Things",
             "description": "Explore The Library",
             "startdescription": "No one truly knows how vast The Library is.",
