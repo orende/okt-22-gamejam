@@ -18,10 +18,6 @@
                 {
                     "id": "addtalk",
                     "additional": "true"
-                },
-                {
-                    "id": "timepasses",
-                    "additional": "true"
                 }
             ]
         },
