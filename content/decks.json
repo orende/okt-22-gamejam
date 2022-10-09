@@ -19,7 +19,11 @@
             "id": "tlondeck",
             "label": "Books kept by the Linguist Label",
             "spec": [
-                "lost"
+                "book.mlejnas",
+                "book.ooqbar",
+                "book.quincey",
+                "book.orbiustertius",
+                "book.rozencross"
             ],
             "resetonexhaustion": true
         }
