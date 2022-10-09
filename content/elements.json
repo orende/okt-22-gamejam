@@ -80,6 +80,36 @@
 			"aspects": {
 				"text": 1
 			}
-		}
+		},
+        {
+			"id": "lost",
+			"label": "\"Am I... lost?\"",
+			"description": "\"Shit.\"",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
+        },
+        {
+            "id": "litcandle",
+            "label": "Lit Candle",
+            "description": "A burning candle spreading a dim light. You can use it to explore dark places.",
+            "decayTo": "unlitcandle",
+            "lifetime": 60,
+            "slots": [],
+            "aspects": {
+                "light": 1
+            }
+
+        },
+        {
+            "id": "unlitcandle",
+            "label": "Unlist Candle",
+            "description": "It's a candlestick. It does not do much good in its current, non-burning state",
+            "slots": [],
+            "aspects": {
+            }
+
+        }
 	]
 }
