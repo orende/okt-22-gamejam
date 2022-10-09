@@ -94,6 +94,23 @@
 			},
 			"ending": "bookofdreamsread",
 			"signalEndingFlavour": "Grand"
-		}
+		},
+        {
+            "id": "lightcandle",
+            "actionid": "talk",
+            "label": "Ask Kevin to light the candle",
+            "craftable": true,
+            "startdescription": "\"Pretty please?\"",
+            "description": "Luckily Kevin is a smoker, so he lights the candle with his lighter",
+            "requirements": {
+                "kevin": 1,
+                "unlitcandle": 1
+            },
+            "effects": {
+                "unlitcandle": -1,
+                "litcandle": 1
+            },
+            "warmup": 10
+        }
     ]
 }
