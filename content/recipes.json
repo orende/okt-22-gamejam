@@ -81,7 +81,7 @@
             "actionid": "study",
             "label": "Read the pamphlet",
             "craftable": true,
-            "startdescription": "The pamphlet contains an useful map in its map. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
+            "startdescription": "The pamphlet contains an useful map on its flipside. Though, The Library continues beyond the edges of the paper. Hopefully it can guide me to the next step.",
             "maxexecutions": 2,
             "description": "Found something!",
             "requirements": {
