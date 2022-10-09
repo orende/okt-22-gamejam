@@ -79,6 +79,21 @@
 				"ulk": 1
 			},
 			"actionId": "study"
+		},
+        {
+            "id": "linguist.talk",
+			"label": "Talk to a Linguist",
+			"startdescription": ".",
+			"description": ".",
+			"warmup": 30,
+			"craftable": true,
+			"requirements": {
+				"linguist": 1
+			},
+			"deckeffects": {
+				"tlondeck": 1
+			},
+			"actionId": "talk"
 		}
 	]
 }
