@@ -120,9 +120,20 @@
 			"requirements": {
 				"languagessubsection": 1
 			},
+            "slots": [
+                {
+                    "id": "light",
+                    "label": "Lightsource",
+                    "required": {
+                        "light": 1
+                    }
+                }
+            ],
 			"effects": {
 				"linguist": 1
-			}
+			},
+            "actionId": "explore"
+
 		}
 	]
 }
