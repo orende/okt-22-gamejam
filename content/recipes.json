@@ -18,6 +18,10 @@
                 {
                     "id": "addtalk",
                     "additional": "true"
+                },
+                {
+                    "id": "joel.verb.test",
+                    "additional": "true"
                 }
             ]
         },
