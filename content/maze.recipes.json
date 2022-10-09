@@ -27,7 +27,7 @@
                     "chance": 100
                 },
                 {
-                    "id": "maze.lost",
+                    "id": "maze.lost.from.start",
                     "chance": 100
                 }
             ],
@@ -126,8 +126,20 @@
             },
             "purge": {
                 "conservatory": 1,
-                "greathall": 1
+                "greathall": 1,
+                "windingcorridor": 999
             },
+            "craftable": false,
+            "label": "Explore",
+            "startdescription": "",
+            "description": "You fumble around in the darkness and come to the same corridor as you started in.",
+            "warmup": 10
+        },
+        {
+            "id": "maze.lost.from.start",
+            "actionid": "explore",
+            "requirements": {},
+            "effects": { },
             "craftable": false,
             "label": "Explore",
             "startdescription": "",
