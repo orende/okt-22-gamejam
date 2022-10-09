@@ -80,6 +80,16 @@
 			"aspects": {
 				"text": 1
 			}
-		}
+		},
+        {
+			"id": "lost",
+			"label": "\"Am I... lost?\"",
+			"description": "\"Shit.\"",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
+        }
+
 	]
 }

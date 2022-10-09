@@ -56,6 +56,35 @@
 					"hireling": 1
 				}
 			}
+		},
+		{
+			"id": "time",
+			"label": "Time",
+			"description": "Time passes",
+			"slot": {
+				"id": "time",
+				"label": "Time"
+			}
+		},
+		{
+			"id": "lost",
+			"label": "Explore",
+			"description": "Explore the Library with Health or Followers; explore locations; or investigate the possibilities of knowledge. Exploration is often unpredictable.",
+			"slot": {
+				"id": "exploreslot1",
+				"label": "Explore",
+				"description": "A place; a person; a location; a secret.",
+				"required": {
+					"health": 1,
+					"follower": 1,
+					"location": 1,
+                    "directions": 1
+				},
+				"forbidden": {
+					"hireling": 1
+				}
+			}
 		}
+
 	]
 }

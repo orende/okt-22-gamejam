@@ -1,0 +1,69 @@
+{
+    "recipes": [
+        {
+            "id": "timepasses",
+            "actionId": "time",
+            "label": "Time passes",
+            "startdescription": "The ceaseless passing of time. There is nothing you can do to affect it.",
+            "description": "",
+            "linked": [
+                {
+                    "id": "timepasses",
+                    "chance": 100
+                },
+                {
+                    "id": "maybelost",
+                    "chance": 10
+                }
+            ],
+            "warmup": 1
+        },
+        {
+            "id": "maybelost",
+            "actionId": "time",
+            "label": "Stop and pause",
+            "startdescription": "You stop and consider your surroundings. Are you sure you know where you are?",
+            "description": "",
+            "slots": [
+                {
+                    "id": "lost",
+                    "label": "Lost",
+                    "required": {
+                        "lost": 1
+                    },
+                    "greedy": "true"
+                }
+            ],
+            "linked": [
+                {
+                    "id": "timepasses",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "alt": [
+                {
+                    "id": "totallylost",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "totallylost",
+            "actionId": "time",
+            "label": "You are lost. Whelp.",
+            "startdescription": "What now?",
+            "description": "",
+
+            "linked": [
+                {
+                    "id": "timepasses",
+                    "chance": 100
+                }
+            ],
+            "warmup": 1
+        }
+    ]
+}
