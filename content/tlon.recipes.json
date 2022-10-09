@@ -111,12 +111,12 @@
 		},
 		{
 			"id": "add.linguist",
-			"label": "A frendly face?",
+			"label": "A friendly face?",
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
-			"startdescription": ".",
-			"description": ".",
+			"startdescription": "This librarian stands in the middle of the subsection on ancient languages. He is reading several dictionaries while working on the translation of an antique-looking scroll. Could they be... a linguist?",
+			"description": "Perhaps this librarian can help you find the knowledge that you need? Only one way to find out.",
 			"requirements": {
 				"languagessubsection": 1
 			},
