@@ -14,7 +14,14 @@
                 "lost"
             ],
             "resetonexhaustion": true
+        },
+        {
+            "id": "tlondeck",
+            "label": "Books kept by the Linguist Label",
+            "spec": [
+                "lost"
+            ],
+            "resetonexhaustion": true
         }
-
     ]
 }

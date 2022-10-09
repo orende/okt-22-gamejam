@@ -1,0 +1,67 @@
+{
+    "elements": [
+		{
+			"id": "linguist",
+			"label": "Linguist Librarian",
+			"description": "A master of dead and dying languages. Lord of the domain of ancient languages in the Library.",
+			"slots": [],
+			"aspects": {
+				"librarian": 1,
+				"mortal": 1
+			}
+		},
+        {
+            "id": "languagessubsection",
+			"label": "Ancient Languages subsection",
+			"slots": [],
+			"aspects": {
+				"location": 1
+			}
+        },
+        {
+            "id":"book.mlejnas",
+            "label": "Geography of Mlejnas",
+            "description": "",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id":"book.ooqbar",
+            "label": "The History of the Land called Ooqbar",
+            "description": "",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id":"book.quincey",
+            "label": "Writings vol 13 by De Quincey",
+            "description": "",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id":"book.orbiustertius",
+            "label": "A Treatise on Orbis Tertius",
+            "description": "",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id":"book.rozencross",
+            "label": "The Tales of Imaginary Rozencross",
+            "description": "",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        }
+    ]
+}
