@@ -23,6 +23,7 @@
 		},
 		{
 			"id": "addtalk",
+            "actionId": "talk",
 			"label": "Walking, walking",
 			"warmup": 10,
 			"startdescription": "Maybe I can find someone who can help me?",
