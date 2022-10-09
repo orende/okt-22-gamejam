@@ -17,10 +17,6 @@
 				{
 					"id": "addtalk",
 					"additional": "true"
-				},
-				{
-					"id": "addjoelverb",
-					"additional": "true"
 				}
 			]
 		},
@@ -63,13 +59,6 @@
 			"warmup": 10,
 			"startdescription": "This place looks like a cozy place, if I clean it up slightly.",
 			"description": "I've made a desk and a chair out of some books."
-		},
-		{
-			"id": "addjoelverb",
-			"label": "Joels verbtest.",
-			"warmup": 10,
-			"startdescription": "Start description.",
-			"description": "End description."
 		},
 		{
 			"id": "explorewithpamphlet",
