@@ -79,7 +79,19 @@
 				"ulk": 1
 			},
 			"actionId": "study"
-		},
+		},		{
+			"id": "study.firsttlon",
+			"label": "Read The First Encyclopedia of Tlön",
+			"maxexecutions": 1,
+			"warmup": 30,
+			"craftable": true,
+			"startdescription": ".",
+			"description": ".",
+			"requirements": {
+				"book.firsttlon": 1
+			},
+			"actionId": "study"
+		}
 		{
 			"id": "linguist.talk",
 			"label": "Talk to a Linguist",
