@@ -3,8 +3,9 @@
         {
             "id": "pamphletdeck",
             "label": "Possible locations found on the pamphlet",
+            "default": "",
             "spec": [
-                "macguffin"
+                "windingcorridor"
             ]
         },
         {

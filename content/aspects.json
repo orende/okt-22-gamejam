@@ -47,6 +47,12 @@
             "label": "Directions",
             "description": "Knowing where to go, what steps to take.",
 			"isAspect": true
-		}
+		},
+        {
+            "id": "location",
+            "label": "Location",
+            "description": "A place",
+            "isAspect": true
+        }
 	]
 }

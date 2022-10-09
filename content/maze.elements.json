@@ -1,0 +1,28 @@
+{
+    "elements": [
+        {
+            "id": "windingcorridor",
+            "label": "Winding corridor",
+            "description": "This corridor leads to the rest of the library. The library is vast, and you know that if you enter this corridor there's a risk that you will be lost, forever.",
+            "aspects": {
+                "location": 1
+            }
+        },
+        {
+            "id": "greathall",
+            "label": "The Great Halls",
+            "description": "Bookshelfs cover the walls, high up into the above.",
+            "aspects": {
+                "location": 1
+            }
+        },
+        {
+            "id": "conservatory",
+            "label": "Conservatory",
+            "description": "The roof of this room is made out of glass, and the sun is shining down on flowerbeds contains rare and exotic plats. Though, you could have sworn that you travelled downwards to get here. How can the sun be shining here?",
+            "aspects": {
+                "location": 1
+            }
+        }
+    ]
+}

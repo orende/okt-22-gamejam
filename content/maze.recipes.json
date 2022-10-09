@@ -1,0 +1,138 @@
+{
+    "recipes": [
+        {
+            "id": "mazestart",
+            "actionid": "explore",
+            "requirements": {
+                "windingcorridor": 1
+            },
+            "effects": {
+                "windingcorridor": -1,
+                "greathall": 1,
+                "conservatory": 1
+            },
+            "slots": [
+                {
+                    "id": "mazestartslot",
+                    "label": "Light",
+                    "requires": [
+                        "light"
+                    ],
+                    "description": "."
+                }
+            ],
+            "alt": [
+                {
+                    "id": "maze.afterstartexplore",
+                    "chance": 100
+                },
+                {
+                    "id": "maze.lost",
+                    "chance": 100
+                }
+            ],
+            "craftable": true,
+            "label": "Explore",
+            "startdescription": "Without a source of light it's going to be difficult to explore.",
+            "warmup": 10
+        },
+        {
+            "id": "maze.afterstartexplore",
+            "actionid": "explore",
+            "requirements": {
+                "light": 1,
+                "windingcorridor": 1
+            },
+            "effects": {
+                "windingcorridor": -1,
+                "greathall": 1,
+                "conservatory": 1
+            },
+            "description": "You come to a fork in the road, one path leading to the Great Hall, the other to the Conservatory. Which is the right way?"
+        },
+        {
+            "id": "maze.explore.greathall",
+            "actionid": "explore",
+            "requirements": {
+                "greathall": 1
+            },
+            "slots": [
+                {
+                    "id": "exploregreathallslot",
+                    "label": "Light",
+                    "requires": [
+                        "light"
+                    ],
+                    "description": "."
+                }
+            ],
+            "effects": {
+            },
+            "alt": [
+                {
+                    "id": "maze.aftergreathall",
+                    "chance": 100
+                },
+                {
+                    "id": "maze.lost",
+                    "chance": 100
+                }
+            ],
+            "craftable": true,
+            "label": "Explore",
+            "startdescription": "The Great Hall leads to many different corridors. Is what you seek beyond here?",
+            "warmup": 10
+        },
+        {
+            "id": "maze.aftergreathall",
+            "actionid": "explore",
+            "requirements": {
+                "light": 1,
+                "greathall": 1
+            },
+            "effects": {
+                "greathall": -1
+            },
+            "description": "With this candle you are sure to find the way."
+        },
+        {
+            "id": "maze.explore.conservatory",
+            "actionid": "explore",
+            "requirements": {
+                "conservatory": 1
+            },
+            "effects": {
+                "windingcorridor": 1,
+                "conservatory": -1
+            },
+            "purge": {
+                "greathall": 1
+            },
+            "craftable": true,
+            "label": "Exploring beyond the conservatory",
+            "startdescription": "Could what you seek be beyond the conservatory?",
+            "description": "You travel through the greenhouse, into new corridors with twist and turn, and without you knowing how you end up at the winding corridors in which you started.",
+            "warmup": 10
+        },
+        {
+            "id": "maze.lost",
+            "actionid": "explore",
+            "requirements": {},
+            "effects": {
+                "windingcorridor": 1,
+                "conservatory": -1,
+                "greathall": -1
+            },
+            "purge": {
+                "conservatory": 1,
+                "greathall": 1
+            },
+            "craftable": false,
+            "label": "Explore",
+            "startdescription": "",
+            "description": "You fumble around in the darkness and come to the same corridor as you started in.",
+            "warmup": 10
+        }
+    ]
+}
+
