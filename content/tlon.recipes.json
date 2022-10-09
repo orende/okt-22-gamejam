@@ -3,6 +3,8 @@
 		{
 			"id": "study.GeographyofMlejnas",
 			"label": "Read Geography of Mlejnas",
+			"startdescription": "An imaginary region invented by writers from the civilization of Ooqbar. It is home to many epics and legends.",
+			"description": "Your are filled with awe at the inventiveness of Ooqbar's writers, but not enlightened on how to succeed in your search.",
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
@@ -17,6 +19,8 @@
 		{
 			"id": "study.Writingsvol13byDeQuincey",
 			"label": "Read Writings vol 13 by De Quincey",
+			"startdescription": "A collection of short articles and treatises on semi-imaginary and quasi-imaginary civilizations across the known world.",
+			"description": "The layers of indirection and double or triple negations present in this book leaves your head spinning. This is going nowhere.",
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
@@ -31,6 +35,8 @@
 		{
 			"id": "study.TheHistoryoftheLandcalledOoqbar",
 			"label": "Read The History of the Land called Ooqbar",
+			"startdescription": "Written by Silas Haslam in 1837, this thick tome chronicles the rise and fall and rebirth of great Ooqbar, a land in the near-Orient.",
+			"description": "Reading the founding mythos of Ooqbar reveals that they had mastered the secrets of dreams. They gathered their discoveries in a set of encyclopedias. You must study them at once, they will surely hold the key to your goals!",
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
@@ -45,6 +51,8 @@
 		{
 			"id": "study.ATreatiseonOrbisTertius",
 			"label": "Read A Treatise on Orbis Tertius",
+			"startdescription": "A scientific article investigating the supposed existence of a seemingly perfect world that does not exist.",
+			"description": "Does Orbis Tertius exist or does it not? This book has no answers.",
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
@@ -59,6 +67,8 @@
 		{
 			"id": "study.TheTalesofImaginaryRozencross",
 			"label": "Read The Tales of Imaginary Rozencross",
+			"startdescription": "A work by a German theologist from the early 1600's who in these works describe the fantastic society of Rozencross.",
+			"description": "So much time spent coming up with something that means nothing. Reading this was a waste of time.",
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
