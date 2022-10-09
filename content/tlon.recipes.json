@@ -81,12 +81,12 @@
 			"actionId": "study"
 		},		{
 			"id": "study.firsttlon",
-			"label": "Read The First Encyclopedia of Tlön",
+			"label": "Read the First Encyclopedia of Tlon",
 			"maxexecutions": 1,
 			"warmup": 30,
 			"craftable": true,
-			"startdescription": ".",
-			"description": ".",
+			"startdescription": "This book seems promising. Will it lead me closer to my goals?",
+			"description": "The knowledge from the imaginary Tlön, when combined with the others, will take you to the dream.",
 			"requirements": {
 				"book.firsttlon": 1
 			},
