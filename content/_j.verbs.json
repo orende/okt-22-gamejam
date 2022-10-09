@@ -2,9 +2,12 @@
 	"verbs": [
 		{
 			"id": "joel.verb.test",
+			"label": "JoelTestVerb",
 			"description": "Revile my test cards.",
 			"slot": {
-				"id": "joel.verb.test",
+				"id": "joel.verb.testslot",
+				"label": "TestVerbJoel",
+				"description": "Test verb from Joel",
 				"required": {
 					"joel": 1
 				}
