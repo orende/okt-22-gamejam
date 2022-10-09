@@ -79,7 +79,8 @@
 				"ulk": 1
 			},
 			"actionId": "study"
-		},		{
+		},
+		{
 			"id": "study.firsttlon",
 			"label": "Read the First Encyclopedia of Tlon",
 			"maxexecutions": 1,
@@ -107,6 +108,21 @@
 				"tlondeck": 1
 			},
 			"actionId": "talk"
+		},
+		{
+			"id": "add.linguist",
+			"label": "A frendly face?",
+			"maxexecutions": 1,
+			"warmup": 30,
+			"craftable": true,
+			"startdescription": ".",
+			"description": ".",
+			"requirements": {
+				"languagessubsection": 1
+			},
+			"effects": {
+				"linguist": 1
+			}
 		}
 	]
 }
