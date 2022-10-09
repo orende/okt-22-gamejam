@@ -1,5 +1,16 @@
 {
 	"recipes": [
-		
+		{
+			"id": "joel.dev",
+			"warmup": 5,
+			"craftable": true,
+			"signalimportantloop": true,
+			"startdescription": "Unlock Cards fast",
+			"description": "He you go!",
+			"effects": {
+				"linguist": 1
+			},
+			"actionId": "joel.verb.test"
+		}
 	]
 }
