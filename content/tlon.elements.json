@@ -62,6 +62,15 @@
             "aspects": {
                 "text": 1
             }
+        },
+        {
+            "id": "book.firsttlon",
+            "label": "The First Encyclopedia of Tlön",
+            "description": "",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
         }
     ]
 }
