@@ -133,11 +133,11 @@
         },
         {
 			"id": "find.centrehall",
-			"label": "Faolowing instruktions to the Center Hall",
+			"label": "Following the directions to the Center Hall",
 			"warmup": 5,
 			"craftable": true,
-			"startdescription": "Dusent look to far",
-			"description": "",
+			"startdescription": "Doesn't look too far",
+			"description": "I have arrived.",
 			"requirements": {
 				"d.centerhall": 1
 			},
@@ -155,9 +155,9 @@
 		},
 		{
 			"id": "centrehall.arive",
-			"label": "Faolowing instruktions to the Center Hall",
+			"label": "Following the directions to the Center Hall",
 			"warmup": 5,
-			"startdescription": "Walking thrue nerow coridors and curving paths.",
+			"startdescription": "Walking through narrow corridors and curving paths.",
 			"description": "Her I ame."
 		}
     ]
