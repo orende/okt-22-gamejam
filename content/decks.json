@@ -1,33 +1,34 @@
 {
-    "decks": [
-        {
-            "id": "pamphletdeck",
-            "label": "Possible locations found on the pamphlet",
-            "default": "",
-            "spec": [
-                "windingcorridor"
-            ]
-        },
-        {
-            "id": "timedeck",
-            "label": "Possible locations found on the pamphlet",
-            "spec": [
-                "lost"
-            ],
-            "resetonexhaustion": true
-        },
-        {
-            "id": "tlondeck",
-            "label": "Books kept by the Linguist Librarian",
-            "spec": [
-                "book.mlejnas",
-                "book.ooqbar",
-                "book.quincey",
-                "book.orbiustertius",
-                "book.rozencross"
-            ],
-            "defaultcard": "ulk",
-            "resetonexhaustion": false
-        }
-    ]
+	"decks": [
+		{
+			"id": "pamphletdeck",
+			"label": "Possible locations found on the pamphlet",
+			"spec": [
+				"windingcorridor",
+				"d.centerhall",
+				"d.languagessubsection"
+			],
+			"defaultcard": "ulk"
+		},
+		{
+			"id": "timedeck",
+			"label": "Possible locations found on the pamphlet",
+			"resetonexhaustion": true,
+			"spec": [
+				"lost"
+			]
+		},
+		{
+			"id": "tlondeck",
+			"label": "Books kept by the Linguist Librarian",
+			"spec": [
+				"book.mlejnas",
+				"book.ooqbar",
+				"book.quincey",
+				"book.orbiustertius",
+				"book.rozencross"
+			],
+			"defaultcard": "ulk"
+		}
+	]
 }
