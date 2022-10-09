@@ -58,6 +58,7 @@
 		},
 		{
 			"id": "addstudy",
+            "actionId": "study",
 			"label": "I need a place to study what I've found.",
 			"warmup": 10,
 			"startdescription": "This place looks like a cozy place, if I clean it up slightly.",
