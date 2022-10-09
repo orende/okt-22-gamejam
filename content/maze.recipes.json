@@ -91,9 +91,11 @@
                 "greathall": 1
             },
             "effects": {
-                "greathall": -1
+                "greathall": -1,
+                "macguffin": 1
             },
-            "description": "With this candle you are sure to find the way."
+            "
+            "description": "By the gods, you found the book that you were looking for!"
         },
         {
             "id": "maze.explore.conservatory",
