@@ -17,7 +17,7 @@
         },
         {
             "id": "tlondeck",
-            "label": "Books kept by the Linguist Label",
+            "label": "Books kept by the Linguist Librarian",
             "spec": [
                 "book.mlejnas",
                 "book.ooqbar",
@@ -25,7 +25,7 @@
                 "book.orbiustertius",
                 "book.rozencross"
             ],
-            "resetonexhaustion": true
+            "resetonexhaustion": false
         }
     ]
 }
