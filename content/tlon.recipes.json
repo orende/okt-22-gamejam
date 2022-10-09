@@ -91,7 +91,7 @@
 				"book.firsttlon": 1
 			},
 			"actionId": "study"
-		}
+		},
 		{
 			"id": "linguist.talk",
 			"label": "Talk to a Linguist",
