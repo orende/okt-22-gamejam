@@ -37,6 +37,12 @@
 			"isAspect": true
 		},
 		{
+			"id": "light",
+			"label": "Light",
+			"description": "A light that makes it easier to see.",
+			"isAspect": true
+		},
+		{
 			"id": "directions",
             "label": "Directions",
             "description": "Knowing where to go, what steps to take.",
