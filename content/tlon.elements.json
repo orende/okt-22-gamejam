@@ -3,7 +3,7 @@
         {
             "id": "linguist",
             "label": "Linguist Librarian",
-            "description": "A master of dead and dying languages. Lord of the domain of ancient languages in the Library.",
+            "description": "A seeker of dead and dying languages.",
             "slots": [],
             "aspects": {
                 "librarian": 1,
@@ -13,6 +13,7 @@
         {
             "id": "languagessubsection",
             "label": "Ancient Languages subsection",
+            "description": "Contains books on vocabulary and grammar.",
             "slots": [],
             "aspects": {
                 "location": 1
@@ -21,7 +22,7 @@
         {
             "id": "book.mlejnas",
             "label": "Geography of Mlejnas",
-            "description": "",
+            "description": "A extensive and professional book of imaginary geography.",
             "slots": [],
             "aspects": {
                 "text": 1
@@ -30,7 +31,7 @@
         {
             "id": "book.ooqbar",
             "label": "The History of the Land called Ooqbar",
-            "description": "",
+            "description": "An illustrated history of Ooqbar in the near-Orient.",
             "slots": [],
             "aspects": {
                 "text": 1
@@ -39,7 +40,7 @@
         {
             "id": "book.quincey",
             "label": "Writings vol 13 by De Quincey",
-            "description": "",
+            "description": "Short articles on imaginary places.",
             "slots": [],
             "aspects": {
                 "text": 1
@@ -48,7 +49,7 @@
         {
             "id": "book.orbiustertius",
             "label": "A Treatise on Orbis Tertius",
-            "description": "",
+            "description": "A perfect world... if only it existed.",
             "slots": [],
             "aspects": {
                 "text": 1
@@ -57,7 +58,7 @@
         {
             "id": "book.rozencross",
             "label": "The Tales of Imaginary Rozencross",
-            "description": "",
+            "description": "Stories of a dreamed place far away.",
             "slots": [],
             "aspects": {
                 "text": 1
@@ -66,7 +67,7 @@
         {
             "id": "book.firsttlon",
             "label": "The First Encyclopedia of Tlön",
-            "description": "",
+            "description": "A book that may hold the key to everything.",
             "slots": [],
             "aspects": {
                 "text": 1
