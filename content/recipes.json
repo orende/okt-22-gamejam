@@ -187,6 +187,14 @@
                 "kevin": 1,
                 "litcandle": 1
             }
+        },
+        {
+            "id": "createt.book.macguffin",
+            "label": "Creating the Book of Dreams.",
+            "actionId": "study",
+            "requirements": {
+                "houndingvisions"
+            }
         }
     ]
 }
