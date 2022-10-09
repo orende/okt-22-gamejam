@@ -1,0 +1,68 @@
+{
+    "elements": [
+        {
+            "id": "groundskeeper",
+            "label": "Library groundskeeper",
+            "description": "This one tends to the Library's gardens.",
+            "slots": [],
+            "aspects": {
+                "librarian": 1,
+                "mortal": 1
+            }
+        },
+        {
+            "id": "gardens",
+            "label": "Library gardens",
+            "description": "The gardens of the Library.",
+            "slots": [],
+            "aspects": {
+                "location": 1
+            }
+        },
+        {
+            "id": "item.blessedclay",
+            "label": "Blessed clay",
+            "description": "Clay from the holy soil on which a temple was built.",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id": "item.roseyesterday",
+            "label": "Rose from yesterday",
+            "description": "When you hold this rose, yesterday seems very far away.",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id": "item.ivorylabyrinth",
+            "label": "Miniature ivory labyrinth",
+            "description": "A miniature labyrinth made from ivory that resembles the garden.",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id": "item.bronzeplate",
+            "label": "Polished bronze plate",
+            "description": "You can see your reflection in this, but... backwards?",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        },
+        {
+            "id": "item.labyrinthgod",
+            "label": "The God of the Labyrinth",
+            "description": "An idol depicting the Lord of Mazes.",
+            "slots": [],
+            "aspects": {
+                "text": 1
+            }
+        }
+    ]
+}

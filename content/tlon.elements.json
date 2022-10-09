@@ -70,7 +70,8 @@
 			"description": "A book that may hold the key to everything.",
 			"slots": [],
 			"aspects": {
-				"text": 1
+				"text": 1,
+                "finalingredient": 1
 			}
 		},
 		{
