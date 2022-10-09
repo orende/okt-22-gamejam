@@ -110,6 +110,25 @@
             "aspects": {
             }
 
-        }
+        },
+		{
+			"id": "centrehall",
+			"label": "Centre Hall",
+			"description": "A round area under huge doume siling. The walls ar filld withe bocks and in the midel are meny reding tabels blaised.\n",
+			"slots": [],
+			"aspects": {
+				"location": 1,
+				"centrehall": 1
+			}
+		},
+		{
+			"id": "d.centerhall",
+			"label": "Directions to Centre Hall",
+			"description": "thay hav told me about the Centre Hall. This will led me ther.",
+			"slots": [],
+			"aspects": {
+				"directions": 1
+			}
+		}
 	]
 }

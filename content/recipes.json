@@ -130,6 +130,35 @@
                 "unlitcandle": -1,
                 "litcandle": 1
             }
-        }
+        },
+        {
+			"id": "find.centrehall",
+			"label": "Faolowing instruktions to the Center Hall",
+			"warmup": 5,
+			"craftable": true,
+			"startdescription": "Dusent look to far",
+			"description": "",
+			"requirements": {
+				"d.centerhall": 1
+			},
+			"effects": {
+				"centrehall": 1,
+				"d.centerhall": -1
+			},
+			"actionId": "explore",
+			"linked": [
+				{
+					"id": "centrehall.arive",
+					"chance": 100
+				}
+			]
+		},
+		{
+			"id": "centrehall.arive",
+			"label": "Faolowing instruktions to the Center Hall",
+			"warmup": 5,
+			"startdescription": "Walking thrue nerow coridors and curving paths.",
+			"description": "Her I ame."
+		}
     ]
 }
