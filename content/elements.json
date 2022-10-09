@@ -129,6 +129,14 @@
 			"aspects": {
 				"directions": 1
 			}
+		},
+		{
+			"id": "ulk",
+			"label": "Useless Knowledge",
+			"description": "This was not what I where looking for...",
+			"slots": [],
+			"lifetime": 30,
+			"resaturate": true
 		}
 	]
 }
