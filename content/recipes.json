@@ -17,7 +17,7 @@
 			"alt": [
 				{
 					"id": "addtalk",
-					"additional": "true"
+					"additional": true
 				}
 			]
 		},
@@ -52,7 +52,7 @@
 			"alt": [
 				{
 					"id": "addstudy",
-					"additional": "true"
+					"additional": true
 				}
 			]
 		},
